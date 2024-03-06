@@ -1,0 +1,23 @@
+Express -> CRUD functions 
+    - POST [Insert into]
+    - GET [SELECT]
+    - PUT [UPDATE- SET/ALTER TABLE]
+    - DELETE
+
+Nodemon - [Keeps the server working]
+
+FS - Change files 
+    - Change files async 
+
+
+
+RS -> Refresh nodemon 
+
+
+server.get('/usuarios', (req, res) => {
+
+}) 
+
+
+get - CRUD 
+/usuarios - ENDPOINT

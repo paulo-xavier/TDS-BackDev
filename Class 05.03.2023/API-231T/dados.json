@@ -1,0 +1,22 @@
+{
+  "Usuarios": [
+    {
+      "id": 1,
+      "nome": "Paulo Roberto Xavier da Silva",
+      "idade": 19,
+      "curso": "TDS/SKA"
+    },
+    {
+      "id": 2,
+      "nome": "Paulo Xavier",
+      "idade": 19,
+      "curso": "TDS"
+    },
+    {
+      "id": 3,
+      "nome": "Kainnã Borth Wantsin",
+      "idade": 19,
+      "curso": "TDS - Web"
+    }
+  ]
+}

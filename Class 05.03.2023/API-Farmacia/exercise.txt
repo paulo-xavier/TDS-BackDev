@@ -1,0 +1,31 @@
+Trabalho APIs - Farmácia Turma 23-1T 
+TDS - Prof. Esp. Iuri Nascimento Santos 
+
+Link para o vídeo: https://youtu.be/gJfdkb5WnBI?si=8O2wnmlaqMaOqEDG
+
+
+Comece a criar sua API, a estrutura básica é: Iniciar o NPM no projeto 
+npm init 
+
+Criar um novo arquivo chamado index.js. 
+Instalar o Express.js 
+npm install express 
+
+Após isso, você irá também baixar o Nodemon: 
+npm install nodemon 
+
+E também o FS:
+npm install fs
+
+NÃO ESQUEÇA DE CONFIGURAR O NODEMON NO PACKAGE.JSON
+
+A modelagem do JSON é: 
+Tabela "Medicamento": 
+Atributos: id (INT): chave primária que identifica exclusivamente cada medicamento. nome (VARCHAR): nome do medicamento. fabricante (VARCHAR): nome do fabricante do medicamento. preco (DECIMAL): preço do medicamento. quantidade (INT): quantidade disponível em estoque. 
+
+Tabela "Cliente": Atributos: id (INT): chave primária que identifica exclusivamente cada cliente. nome (VARCHAR): nome do cliente. endereco (VARCHAR): endereço do cliente. email (VARCHAR): endereço de e-mail do cliente. telefone (VARCHAR): número de telefone do cliente. 
+
+Tabela "Fornecedor": Atributos: id (INT): chave primária que identifica exclusivamente cada fornecedor. nome (VARCHAR): nome do fornecedor. endereco (VARCHAR): endereço do fornecedor. telefone (VARCHAR): número de telefone do fornecedor. 
+
+Tabela "Venda": Atributos: id (INT): chave primária que identifica exclusivamente cada venda. data (DATE): data da venda. id_medicamento (INT): chave estrangeira referenciando o medicamento vendido. id_cliente (INT): chave estrangeira referenciando o cliente que realizou a compra. 
+Agora crie um GET, POST, PUT e DELETE para cada tabela

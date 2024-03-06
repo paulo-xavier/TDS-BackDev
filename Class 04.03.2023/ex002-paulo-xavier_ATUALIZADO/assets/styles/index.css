@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-image:linear-gradient(#0B2B40,#164773);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    background-color: white;
+    width:70%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+main .options {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+}
+
+main .options input {
+    width: 30%;
+    height: 30px;
+}
+
+main .options button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(32, 172, 32);
+    color: white;
+    vertical-align: middle;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+main .country-info #country {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media (max-width: 529px) {
+    main .country-info #country {
+        width: 200px;
+    }
+
+    main .options {
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+    }
+
+    main .options input {
+        width: 60%;
+    }
+}

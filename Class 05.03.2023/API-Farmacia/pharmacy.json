@@ -1,0 +1,78 @@
+{
+  "Medicine": [
+    {
+      "id_medicine": 0,
+      "name_medicine": "",
+      "producer_medicine": "",
+      "price_medicine": "",
+      "quantity_medicine": 1
+    },
+    {
+      "id_medicine": 1,
+      "name_medicine": "Aspirin",
+      "producer_medicine": "Bayer",
+      "price_medicine": 5.99,
+      "quantity_medicine": 100
+    },
+    {
+      "id_medicine": 2,
+      "name_medicine": "Paracetamol",
+      "producer_medicine": "Johnson & Johnson",
+      "price_medicine": 3.49,
+      "quantity_medicine": 200
+    },
+    {
+      "id_medicine": 3,
+      "name_medicine": "Amoxicillin",
+      "producer_medicine": "Pfizer",
+      "price_medicine": 8.75,
+      "quantity_medicine": 500
+    }
+  ],
+  "Client": [
+    {
+      "id_client": 0,
+      "name_client": "",
+      "address_client": "",
+      "email_client": "",
+      "phone_client": ""
+    },
+    {
+      "id_client": 1,
+      "name_client": "Paul Xavier",
+      "address_client": "Av. Dom João",
+      "email_client": "pauloxavier@gmail.com",
+      "phone_client": "555-555-5556"
+    },
+    {
+      "id_client": 2,
+      "name_client": "Maria Xavier",
+      "address_client": "Av. Vicentina",
+      "email_client": "mariaxavier@gmail.com",
+      "phone_client": "123-321-456"
+    },
+    {
+      "id_client": 3,
+      "name_client": "Sandro Lima",
+      "address_client": "Av. Senac Centro",
+      "email_client": "sandrolima@gmail.com",
+      "phone_client": "332-121-4561"
+    }
+  ],
+  "Supplier": [
+    {
+      "id_supplier": 0,
+      "name_supplier": "",
+      "address_supplier": "",
+      "phone_supplier": ""
+    }
+  ],
+  "Selling": [
+    {
+      "id_selling": 0,
+      "date_selling": "",
+      "id_medicine": 0,
+      "id_client": 0
+    }
+  ]
+}
